@@ -1,7 +1,32 @@
 # FdF
 Este es un proyecto para empezar en la programación gráfica
 ## Descripción
-Leyendo las coordenadas de un archivo .fdf el programa utiliza los datos del archivo para construir una figura en "3D".
+Leyendo las coordenadas de un archivo .fdf que tiene el siguiente formato:
+
+```
+  $>cat 42.fdf
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0 10 10  0  0 10 10  0  0  0 10 10 10 10 10  0  0  0
+  0  0 10 10  0  0 10 10  0  0  0  0  0  0  0 10 10  0  0
+  0  0 10 10  0  0 10 10  0  0  0  0  0  0  0 10 10  0  0
+  0  0 10 10 10 10 10 10  0  0  0  0 10 10 10 10  0  0  0
+  0  0  0 10 10 10 10 10  0  0  0 10 10  0  0  0  0  0  0
+  0  0  0  0  0  0 10 10  0  0  0 10 10  0  0  0  0  0  0
+  0  0  0  0  0  0 10 10  0  0  0 10 10 10 10 10 10  0  0
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  $>
+```
+
+Cada número representa un punto en el espacio:
+- La posición horizontal corresponde con su eje de abscisas.
+- La posición vertical corresponde con su eje de ordenadas.
+- El valor corresponde con su altitud
+
+<br>
+
+Con este formato el programa utiliza los puntos facilitados para construir una figura en "3D".
 La imagen se encuentra en proyección isométrica. Se pueden hacer desde figuras muy sencillas hasta campos suficientemente complejos.
 
 <img width="505" alt="Screen Shot 2021-12-24 at 2 06 22 PM" src="https://user-images.githubusercontent.com/72702214/147354952-68637cc3-4419-4661-b112-c9551e623a28.png">
