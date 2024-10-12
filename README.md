@@ -1,5 +1,5 @@
 # FdF
-Este es un proyecto para empezar en la programación gráfica
+Este es un proyecto para empezar en la programación gráfica.
 ## Descripción
 Leyendo las coordenadas de un archivo .fdf que tiene el siguiente formato:
 
@@ -22,7 +22,7 @@ Leyendo las coordenadas de un archivo .fdf que tiene el siguiente formato:
 Cada número representa un punto en el espacio:
 - La posición horizontal corresponde con su eje de abscisas.
 - La posición vertical corresponde con su eje de ordenadas.
-- El valor corresponde con su altitud
+- El valor corresponde con su altitud.
 
 <br>
 
